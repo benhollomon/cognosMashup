@@ -13,10 +13,41 @@ Source: CRAN
 Version: 0.12.17
 Hash: d2eff4634ccd7aca030c540ad805ac4a
 
+Package: assertthat
+Source: CRAN
+Version: 0.2.0
+Hash: e8805df54c65ac96d50235c44a82615c
+
+Package: backports
+Source: CRAN
+Version: 1.1.2
+Hash: 5ae7b3466e529e4400951ca18c137e40
+
+Package: brew
+Source: CRAN
+Version: 1.0-6
+Hash: 931f9972deae0f205e1c78a51f33149b
+
+Package: commonmark
+Source: CRAN
+Version: 1.5
+Hash: 432a16a9967055dad6b39f1c14fd6b2c
+
+Package: crayon
+Source: CRAN
+Version: 1.3.4
+Hash: ff2840dd9b0d563fc80377a5a45510cd
+
 Package: curl
 Source: CRAN
 Version: 3.2
 Hash: e3318ec2d42d15a38485bab047d114ba
+
+Package: desc
+Source: CRAN
+Version: 1.2.0
+Hash: a1fd2baa29d4954951e3d1816deab6af
+Requires: R6, assertthat, crayon, rprojroot
 
 Package: devtools
 Source: CRAN
@@ -35,6 +66,11 @@ Source: CRAN
 Version: 0.21.0
 Hash: 64747922e287be74e8e8b46c107fd3ef
 
+Package: glue
+Source: CRAN
+Version: 1.2.0
+Hash: 381e42baedecc633c0e547a0c7ca9de7
+
 Package: httr
 Source: CRAN
 Version: 1.3.1
@@ -45,6 +81,11 @@ Package: jsonlite
 Source: CRAN
 Version: 1.5
 Hash: 9c51936d8dd00b2f1d4fe9d10499694c
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
 
 Package: memoise
 Source: CRAN
@@ -67,10 +108,34 @@ Source: CRAN
 Version: 0.4.9-2
 Hash: 47dbd4e04dcd01da02a2021203205cb1
 
+Package: roxygen2
+Source: CRAN
+Version: 6.0.1
+Hash: 103c10a2707a21170b74bdde8a5f987a
+Requires: R6, Rcpp, brew, commonmark, desc, digest, stringi, stringr,
+    xml2
+
+Package: rprojroot
+Source: CRAN
+Version: 1.3-2
+Hash: a25c3f70c166fb3fbabc410eb32b6366
+Requires: backports
+
 Package: rstudioapi
 Source: CRAN
 Version: 0.7
 Hash: e2ebaff8160aff3e6b32e6e78a693c2d
+
+Package: stringi
+Source: CRAN
+Version: 1.2.2
+Hash: 09671b4a90b75927272d2b2ba6c0d6ed
+
+Package: stringr
+Source: CRAN
+Version: 1.3.1
+Hash: 9f417a1d899ed1f080942ab36998e8b5
+Requires: glue, magrittr, stringi
 
 Package: whisker
 Source: CRAN
