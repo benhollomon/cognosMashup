@@ -3,6 +3,11 @@ PackratVersion: 0.4.9.2
 RVersion: 3.5.0
 Repos: CRAN=https://mirrors.nics.utk.edu/cran/
 
+Package: R6
+Source: CRAN
+Version: 2.2.2
+Hash: b2366cd9d2f3851a5704b4e192b985c2
+
 Package: packrat
 Source: CRAN
 Version: 0.4.9-2
